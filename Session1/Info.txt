@@ -1,6 +1,6 @@
-Sensor Name: Bibou
-Sensor ID: 11
-Year of fabrication: 1999
-Current Year: 2026
-Sensor Age: 27 years
-Is the sensor calibrated ?True
+Sensor Name: B
+Sensor ID: 1
+Year of fabrication: 1
+Current Year: 3
+Sensor Age: 2 years
+Is the sensor calibrated? True
