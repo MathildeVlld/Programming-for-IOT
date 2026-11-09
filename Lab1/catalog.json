@@ -83,6 +83,28 @@
             ],
             "servicesDetails": [],
             "lastUpdate": "2026-10-02"
+        },
+        {
+            "deviceName": "Nen",
+            "deviceID": "&\u00e9",
+            "availableServices": [
+                "MQQT",
+                "Temperature",
+                "MQQT",
+                "MQTT",
+                "Humidity"
+            ]
+        },
+        {
+            "deviceName": "Name1",
+            "deviceID": "23",
+            "availableServices": [
+                "MQTT"
+            ],
+            "availableMeasureTypes": [
+                "Temp",
+                "Hum"
+            ]
         }
     ],
     "usersList": [
