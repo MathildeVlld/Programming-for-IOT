@@ -1,6 +1,8 @@
 # Programming-for-IOT
 Cours Polito
 
+source ProgIoT/bin/activate
+
 Exercice 1 :
 - class
 - JSON

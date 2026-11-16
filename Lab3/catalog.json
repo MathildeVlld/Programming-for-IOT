@@ -1,0 +1,97 @@
+{
+    "projectOwner": "Jake Blues",
+    "projectName": "MySmartThingy",
+    "lastUpdate": "2026-11-11 18:52",
+    "devicesList": [
+        {
+            "deviceID": 1,
+            "deviceName": "DHT11",
+            "measureType": [
+                "Temperature",
+                "Humidity"
+            ],
+            "availableServices": [
+                "MQTT",
+                "REST"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "topic": [
+                        "MySmartThingy/1/temp",
+                        "MySmartThingy/1/hum"
+                    ]
+                },
+                {
+                    "serviceType": "REST",
+                    "serviceIP": "dht11.org:8080"
+                }
+            ],
+            "lastUpdate": "2020-03-30"
+        },
+        {
+            "deviceID": 2,
+            "deviceName": "VCNL4010",
+            "measureType": [
+                "Proximity"
+            ],
+            "availableServices": [
+                "MQTT"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "topic": [
+                        "MySmartThingy/2/proximity"
+                    ]
+                }
+            ],
+            "lastUpdate": "2020-03-30"
+        },
+        {
+            "deviceID": 3,
+            "deviceName": "DHT11",
+            "measureType": [
+                "Temperature"
+            ],
+            "availableServices": [
+                "REST"
+            ],
+            "servicesDetails": [
+                {
+                    "serviceType": "MQTT",
+                    "topic": [
+                        "MySmartThingy/3/temp",
+                        "MySmartThingy/3/hum"
+                    ]
+                }
+            ],
+            "lastUpdate": "2020-03-30"
+        },
+        {
+            "deviceID": 5,
+            "deviceName": "sensor_updated",
+            "measureType": [
+                "temperature",
+                "humidity"
+            ],
+            "availableServices": [
+                "monitoring",
+                "alert"
+            ],
+            "servicesDetails": {
+                "monitoring": "Temperature and humidity monitoring",
+                "alert": "High temperature alert"
+            },
+            "lastUpdate": "2026-11-01 12:18"
+        },
+        {
+            "deviceID": "123",
+            "deviceName": "TestE",
+            "measureType": "Temp",
+            "availableServices": "MQTT,REST",
+            "servicesDetails": "E+",
+            "lastUpdate": "2026-11-11 18:52"
+        }
+    ]
+}

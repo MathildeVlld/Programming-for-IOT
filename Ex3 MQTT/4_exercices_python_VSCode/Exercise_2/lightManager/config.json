@@ -1,0 +1,6 @@
+{
+    "broker":"broker.hivemq.com",
+    "port":1883,
+    "topic_led_management":"IoT/IOTMQTT/led/set",
+    "topic_led_alert":"IoT/IOTMQTT/led/alert"
+}
