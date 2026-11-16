@@ -5,11 +5,11 @@ class LightManager:
 	def __init__(self, clientID,broker,port,topic_publish):
 		self.topic_publish=topic_publish
 		self.__message={'client': clientID,'n':'switch','status':None, 'timestamp':'','unit':"bool"}
-		self.client=MyMQTT(clientID,broker,port,None)
+		self.client=MyMQTT(clientID,broker,port,None) #create an instance
 		self.statusToBool={"on":1,"off":0}
 
 	def startSim (self):
-		self.client.start()
+		self.client.start() # def in MQTT.py
 
 	def stopSim (self):
 		self.client.unsubscribe()
